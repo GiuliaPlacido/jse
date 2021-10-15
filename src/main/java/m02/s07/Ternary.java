@@ -2,7 +2,7 @@ package m02.s07;
 
 public class Ternary {
     public static void main(String[] args) {
-        String version1 = args.length == 0 ? "No arg passed" : args[1];
+        String version1 = args.length == 0 ? "No arg passed" : args[0];
         System.out.println(version1);
 
         String version2;
